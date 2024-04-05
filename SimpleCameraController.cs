@@ -1,3 +1,5 @@
+// Unity 3D URP Sample Scene indirirseniz gelen bir kod bunu ben yazmadım.
+
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
 #endif
