@@ -1,5 +1,7 @@
 
 Bir Main Camera Bir de Scanner Kamera oluşturup, scanner kameranin içine (child) 2 tane post process object atıyoruz, 1. pp scanner kameranın rengi (ben yeşil yaptım) 2. pp main cameraya verilecek olan bloom ve parlama efekti alıcak (ben sarı yaptım), bloom efektinin rengini ayarlamak için shader graph material oluşturuyoruz, ve materialin rengini kafamıza göre ayarlıyoruz. (ben gradient kullandım), sonra scriptleri kameralara ekleyip, taranacak objemizi kopyalıyoruz, ve child olarak içine 2. aynı objeyi yapıştırıyoruz. 1. Obje main kameranın göreceği normal obje olacak, 2. Obje 1.objenin içindeki scanner kamera çalışınca parlayacak olan obje olacak şekilde scriptlerini ayarlıyoruz.
 
+We create a Main Camera and a Scanner Camera, we throw 2 post process objects into the scanner camera (child), 1. pp is the color of the scanner camera (I made it green) 2. pp will get the bloom and glare effect that will be given to the main camera (I made it yellow), we create a shader graph material to adjust the color of the bloom effect, and adjust the color of the material according to our head. (I used gradient), then add the scripts to the cameras, copy our object to be scanned, and paste the 2nd same object into it as a child. The 1st object will be the normal object that the main camera will see, the 2nd object will be the object that will glow when the scanner camera inside the 1st object works.
+
 https://github.com/ahkalama/CyberScanner_Unity/assets/116187665/f58b753e-0f08-4788-a3e4-ac9eb8c490b5
 
